@@ -45,7 +45,7 @@
         </h2>
         <ul class="why_right_list">
             <li>
-                <img src="./img/volkswagen_jetta.png" class="me-5" alt="volkswagen_jetta">
+                <img src="./img/Volkswagen_Jetta.png" class="me-5" alt="volkswagen_jetta">
                 <div class="why_right_item_text">
                     <h3>Специализируемся на Фольксваген!
                     </h3>
