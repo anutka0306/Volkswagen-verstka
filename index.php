@@ -28,7 +28,7 @@
                 </h2>
                 <p><strong>Сервис Фольксваген —
                     </strong>ремонт, обслуживание, тюнинг.</p>
-                <div class="banner_main_text_btn">записаться</div>
+                <div class="banner_main_text_btn" onclick="PopUpShow();">записаться</div>
             </div>
             <div class="banner_main_img"><img src="./img/Volkswagen-Passat-1.png" alt=""></div>
             <div class="advantages_block">

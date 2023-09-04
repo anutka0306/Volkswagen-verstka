@@ -1,14 +1,14 @@
 <header class="header_main container-fluid">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3 col-8 d-md-flex justify-content-center align-items-center">
+            <div class="col-xl-3 col-8 d-md-flex justify-content-center align-items-center">
                 <span class="header_logo"></span>
                 <p class="mb-0 ms-3">Ремонт и обслуживание автомобилей Volkswagen</p>
             </div>
-            <div class="col-md-3 d-md-flex d-none align-items-center justify-content-center">
+            <div class="col-md-3 d-xl-flex d-none align-items-center justify-content-center">
                 <?php include "menu.php";?>
             </div>
-            <div class="col-md-4 col-lg-4 d-md-flex d-none justify-content-around">
+            <div class="col-md-4 col-lg-4 d-xl-flex d-none justify-content-around">
                 <div class="header_address">
                     <div class="white_square_icon"><span class="pin-icon"></span></div>
 
@@ -36,7 +36,7 @@
                     <i class="fas fa-phone" aria-hidden="true" style="font-size:40px"></i></span></a>
                 </div>
             </div>
-            <div class="col-2 d-md-none d-block">
+            <div class="col-2 d-xl-none d-block">
                 <?php include "menu_mobile.php";?>
             </div>
         </div>

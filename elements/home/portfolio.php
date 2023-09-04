@@ -21,7 +21,7 @@
                 <div class="slider_item_consult">
                             <span>Получить бесплатную консультацию
                             </span>
-                    <button class="submit_btn">Отправить</button>
+                    <button class="submit_btn" onclick="PopUpShow();">Отправить</button>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
                 <div class="slider_item_consult">
                             <span>Получить бесплатную консультацию
                             </span>
-                    <button class="submit_btn">Отправить</button>
+                    <button class="submit_btn" onclick="PopUpShow();">Отправить</button>
                 </div>
             </div>
 
