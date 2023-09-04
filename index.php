@@ -34,15 +34,15 @@
             <div class="advantages_block">
                 <ul class="advantages_block_list">
                     <li><span class="garanty-icon"></span>
-                        <p>Гарантия на выполнение работы
+                        <p>Гарантия на <br>выполнение работы
                         </p>
                     </li>
                     <li><span class="scaners-icon"></span>
-                        <p>Дилерские сканеры
+                        <p>Дилерские <br>сканеры
                         </p>
                     </li>
                     <li><span class="tools-icon"></span>
-                        <p>Специальный инструмент для всех видов работ
+                        <p>Специальный инструмент <br>для всех видов работ
                         </p>
                     </li>
 
@@ -56,7 +56,7 @@
         <?php include 'elements/home/services.php';?>
 
         <!-- Subscribe form -->
-        <?php include 'elements/subscribe-form.php';?>
+        <?php /*include 'elements/subscribe-form.php';*/?>
 
         <!-- Blog -->
         <?php include 'elements/home/blog.php';?>
@@ -74,7 +74,7 @@
         <?php include 'elements/home/about.php'; ?>
 
         <!-- Consult Form-->
-        <?php include 'elements/consult-form.php'; ?>
+        <?php /*include 'elements/consult-form.php'; */?>
 
         <!--footer-->
         <?php include 'elements/contacts.php'; ?>
