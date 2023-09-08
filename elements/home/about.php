@@ -5,16 +5,16 @@
         <div class="about_container_left">
             <ul class="about_list">
                 <li class="about_list_item">
-                    <span class="brown-rectangle-icon"></span>
+                    
                     <p>Вот уже много лет мы обслуживаем автомобили Фольксваген, выполняем самые сложные работы
                         по
                         двигателям, подвеске,
                         рулевому управлению и электрике.</p>
                 </li>
-                <li class="about_list_item"><span class="brown-rectangle-icon"></span>
+                <li class="about_list_item">
                     <p>Наши мастера имеют многолетний опыт в ремонте автомобилей Фольксваген.</p>
                 </li>
-                <li class="about_list_item"><span class="brown-rectangle-icon"></span>
+                <li class="about_list_item">
                     <p>Сервис оснащен
                         современным оборудованием и сканерами, позволяющие диагностировать даже самые новые
                         модели.</p>

@@ -58,9 +58,6 @@
         <!-- Subscribe form -->
         <?php /*include 'elements/subscribe-form.php';*/?>
 
-        <!-- Blog -->
-        <?php include 'elements/home/blog.php';?>
-
         <!-- Select auto -->
         <?php include 'elements/home/select-auto.php';?>
 
@@ -72,6 +69,9 @@
 
         <!-- About -->
         <?php include 'elements/home/about.php'; ?>
+
+        <!-- Blog -->
+        <?php include 'elements/home/blog.php';?>
 
         <!-- Consult Form-->
         <?php /*include 'elements/consult-form.php'; */?>

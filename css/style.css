@@ -133,7 +133,7 @@ main {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding-left: 0;
 }
 .header_nav ul li{
@@ -167,6 +167,10 @@ a:visited {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  padding: 4px 8px;
+  display: block;
+  background: #8E7C71;
+  margin: 0 9px;
 }
 .container {
   margin: 0 auto;
@@ -744,9 +748,8 @@ button {
   /* 22.013px */
 }
 
-.services,
-.portfolio {
-  background: #f6f6f6;
+.services {
+  background: #8E7C71;
 }
 
 .container-fluid.portfolio {
@@ -770,6 +773,12 @@ button {
   line-height: 137.9%;
   /* 55.16px */
   text-align: center;
+}
+.about h2 {
+  color: #FFFFFF;
+}
+.services h2 {
+  color: #FFFFFF;
 }
 .btn-mobile-menu {
   display: none;
@@ -904,6 +913,7 @@ button {
 
 .container-fluid.about {
   padding: 72px 5%;
+  background: #8E7C71;
 }
 
 .container-fluid.select_auto {
@@ -1007,6 +1017,7 @@ button {
 .select_auto_list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   gap: 64px;
 }
 
@@ -1016,6 +1027,10 @@ button {
   align-items: center;
   justify-content: center;
   padding: 20px 20px 0 20px;
+}
+
+.select_auto_list li img {
+  width: 314px;
 }
 
 .select_auto_list li p {
@@ -1055,6 +1070,13 @@ button {
   width: 321px;
   height: 54px;
   background: #8e7c71;
+  color: #FFF;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 24px */
+  text-transform: uppercase;
 }
 
 .submit_btn {
@@ -1062,6 +1084,13 @@ button {
   height: 64px;
   background: #8e7c71;
   border: none;
+  color: #FFF;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 24px */
+  text-transform: uppercase;
 }
 
 .portfolio__slider{
@@ -1188,13 +1217,14 @@ button {
   justify-content: space-between;
   width: 45%;
   height: auto;
+  margin-bottom: 38px;
 }
 
 .why_left ul li img {
-  width: 100%;
+  width: 230px;
   height: 100%;
   object-fit: contain;
-  padding: 10%;
+  margin-top: -35px;
 }
 
 .why_left ul li h3 {
@@ -1219,24 +1249,28 @@ button {
 
 .vk-icon {
   background: url(../img/vk-icon.svg);
-  height: 116px;
-  width: 116px;
-  position: relative;
+  height: 142px;
+  width: 142px;
   z-index: 1;
   display: block;
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  position: absolute;
+  left: -100px;
 }
 
 .social_block {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 61px;
-  width: 100%;
-  height: 176px;
-  background: #f6f6f6;
+  padding: 44px 72px 44px 104px;
+  width: 90%;
+  height: 207px;
+  background: transparent;
+  border: 7px solid #8E7C71;
+  margin-left: 10%;
+  position: relative;
 }
 
 .social_block_text {
@@ -1273,7 +1307,7 @@ button {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 39px;
+  gap: 45px;
   padding-left: 0;
 }
 
@@ -1282,10 +1316,12 @@ button {
   align-items: center;
   width: 100%;
   border: 1px solid #e5e1e1;
+  background: #8E7C71;
+  min-height: 199px;
 }
 .why_left h2,
 .why_right h2 {
-  margin-bottom: 51px;
+  margin-bottom: 60px;
   color: #212529;
   font-family: Gilroy;
   font-size: 40px;
@@ -1301,7 +1337,7 @@ button {
   margin-left: -4%;
 }
 .why_right_list li h3 {
-  color: #444;
+  color: #FFFFFF;
   font-family: Gilroy;
   font-size: 27.151px;
   font-style: normal;
@@ -1310,7 +1346,7 @@ button {
 }
 .why_right_list li p {
   max-width: 636px;
-  color: #444;
+  color: #FFFFFF;
   font-family: Gilroy;
   font-size: 24.436px;
   font-style: normal;
@@ -1367,17 +1403,18 @@ button {
 .about_list_item p {
   padding-left: 33px;
   width: 100%;
-  color: #444;
+  color: #FFFFFF;
   font-family: Gilroy;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: 137.9%;
+  border-left: 6px solid #FFFFFF;
 }
 
 .cincerely {
   max-width: 673px;
-  color: #444;
+  color: #FFFFFF;
   font-family: Gilroy;
   font-size: 30px;
   font-style: italic;
@@ -1406,7 +1443,9 @@ button {
   position: relative;
   width: 100%;
   height: 199px;
-  background: #f6f6f6;
+  background: #8E7C71;
+  display: flex;
+  justify-content: center;
 }
 
 .additional_services li p {
@@ -1475,8 +1514,8 @@ button {
 }
 
 .white_square_icon {
-  width: 26px;
-  height: 26px;
+  width: 34px;
+  height: 34px;
   /*background: #fff;*/
   display: flex;
   align-items: center;
@@ -1484,8 +1523,8 @@ button {
 }
 
 .pin-icon {
-  width: 15px;
-  height: 15px;
+  width: 34px;
+  height: 34px;
   background: url(../img/pin-icon.svg);
   display: block;
   background-repeat: no-repeat;
@@ -1494,8 +1533,8 @@ button {
 }
 
 .email-icon {
-  width: 15px;
-  height: 15px;
+  width: 34px;
+  height: 34px;
   background: url(../img/email.svg);
   display: block;
   background-repeat: no-repeat;
@@ -1504,8 +1543,8 @@ button {
 }
 
 .calendar-icon {
-  width: 15px;
-  height: 15px;
+  width: 34px;
+  height: 34px;
   background: url(../img/calendar-icon.svg);
   display: block;
   background-repeat: no-repeat;
@@ -1541,8 +1580,8 @@ button {
   content: "\f095";
 }
 .phone-icon {
-  width: 15px;
-  height: 15px;
+  width: 34px;
+  height: 34px;
   background: url(../img/phone-icon.svg);
   display: block;
   background-repeat: no-repeat;
@@ -1576,7 +1615,14 @@ button {
   text-decoration: none;
   color: #444444;
 }
-
+@media (max-width: 1822px) {
+  .select_auto_list li img {
+    width: 250px;
+  }
+  .select_auto_list {
+    gap: 25px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .header_nav,
   .header_address,

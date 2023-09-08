@@ -1,4 +1,4 @@
-<div class="btn-mobile-menu d-flex justify-content-start">
+<div class="btn-mobile-menu d-flex justify-content-xl-start justify-content-end">
     <a data-bs-toggle="offcanvas" class="offcanvas__burger" href="#offcanvasMenu" role="button"
        aria-controls="offcanvasMenu">
         ☰
