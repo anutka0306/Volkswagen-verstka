@@ -1646,6 +1646,9 @@ button {
     width: 450px;
     height: 450px;
   }
+  .header_nav ul li a {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 1200px) {
