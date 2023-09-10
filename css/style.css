@@ -996,6 +996,7 @@ button {
 }
 
 .blog_load_more_btn {
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1131,6 +1132,8 @@ button {
 .slider-item img {
   width: 683px;
   height: 512px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .slider_item_consult {
@@ -1623,6 +1626,69 @@ button {
     gap: 25px;
   }
 }
+
+@media (max-width: 1536px) {
+  .banner_main_text {
+    left: 5%;
+  }
+  .banner_main_text h1 {
+    font-size: 56px;
+  }
+  .banner_main_text p {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1400px) {
+  .social_block {
+    padding: 44px 50px;
+  }
+  .slider-item img {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .additional_services {
+    justify-content: space-around;
+  }
+  .why {
+    flex-direction: column;
+  }
+  .why_left {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .why_right {
+    width: 100%;
+    align-items: center;
+  }
+  .social_block {
+    width: 50%;
+  }
+  .slider-item img {
+    width: 45%;
+  }
+  .slider_item_text {
+    width: 45%;
+  }
+  .slider_item_text h3 {
+    font-size: 28px;
+  }
+  .slider_item_text p {
+    font-size: 18px;
+  }
+  .about_container {
+    flex-direction: column;
+  }
+  .about_container_right {
+    margin: 30px auto 0;
+  }
+  .contacts_left {
+    padding: 50px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .header_nav,
   .header_address,
@@ -1651,6 +1717,14 @@ button {
   }
   .why_right_list li {
     width: 100%;
+  }
+  .slider-item img, .slider_item_text {
+    width: 100%;
+  }
+  .vk-icon {
+    width: 100px;
+    height: 100px;
+    left: -70px;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 991px) {
@@ -1843,7 +1917,7 @@ width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 21px;
+    padding: 20px 50px;
     width: 100%;
     height: 100%;
     gap: 20px;
@@ -1876,6 +1950,7 @@ width: 80%;
   }
   .why_right_list li img {
     margin-bottom: 27px;
+    margin-right: 0 !important;
   }
   .header_main {
     gap: unset;
@@ -1917,6 +1992,8 @@ width: 80%;
   .why_right_list li {
     flex-direction: column;
     width: 100%;
+    padding: 20px;
+    text-align: center;
   }
   .why_right_item_text p {
     width: 100%;
@@ -1924,7 +2001,7 @@ width: 80%;
   }
   .about_list_item p {
     padding-left: 33px;
-    max-width: 271px;
+    max-width: 100%;
   }
 
   .banner_main_text {
@@ -1963,6 +2040,40 @@ width: 80%;
   }
 }
 @media screen and (max-width: 600px) {
+  .services_list, .select_auto_list, .blog_list {
+    padding-left: 0;
+  }
+  .services h2, .blog h2, .select_auto h2, .portfolio h2, .about h2, .why_left h2, .why_right h2 {
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 35px;
+  }
+  .why_left h2, .why_right h2 {
+    text-align: center;
+  }
+  .why_left ul li {
+    width: 100%;
+  }
+  .vk-icon {
+    width: 50px;
+    height: 50px;
+    left: -26px;
+  }
+  .social_block {
+    margin-left: 0;
+  }
+  .why_right_list li h3 {
+    font-size: 24px;
+  }
+  .why_right_list li p {
+    font-size: 18px;
+  }
+  .about_list_item p {
+    font-size: 18px;
+  }
+  .cincerely {
+    font-size: 16px;
+  }
   .message__item {
     margin-left: 0;
   }
@@ -1984,4 +2095,5 @@ width: 80%;
     margin-right: 0 !important;
     margin-left: 0 !important;
   }
+
 }
