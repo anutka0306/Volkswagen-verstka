@@ -1,5 +1,5 @@
 <section class="select_auto container-fluid">
-    <h2>Выберете модель автомобиля
+    <h2>Модельный ряд Фольксваген
     </h2>
     <ul class="select_auto_list">
         <li><img src="./img/Volkswagen_Amarok.png" alt="Amarok">
@@ -34,12 +34,4 @@
         </li>
 
     </ul>
-    <div class="loading">
-        <div class="loading_block">
-            <div class="loading_bar"></div>
-            <p>0%</p>
-        </div>
-
-        <button class="back_btn">Назад</button>
-    </div>
 </section>
