@@ -15,7 +15,7 @@
 
 <body>
     <!--header-->
-    <?php include 'elements/header.php';?>
+    <?php include 'elements/header_offcanvas.php';?>
     <main>
         <!--banner-->
         <section class="banner_main">
