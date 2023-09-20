@@ -1,7 +1,7 @@
 <header class="header_main container-fluid">
     <nav class="navbar navbar-dark bg-transparent fixed-top">
         <div class="container-fluid">
-            <div class="col-xl-6 col-8 d-md-flex justify-content-xl-center justify-content-start align-items-center">
+            <div class="col-xl-6 col-8 d-md-flex justify-content-xl-start justify-content-start align-items-center">
                 <a href="/"><span class="header_logo"></span></a>
                 <a href="/" class="text-decoration-none"><p class="mb-0 ms-3"><span class="fw-normal">Ремонт и обслуживание <br>автомобилей </span>Volkswagen</p></a>
                 <div class="header_main_certificates d-xl-flex d-none align-items-center">
