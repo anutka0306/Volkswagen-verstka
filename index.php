@@ -22,15 +22,19 @@
             <div class="banner_main_bg"></div>
             <div class="banner_main_text">
 
-                <h1>Ремонт Фольксваген
+                <h1><span>Ремонт</span> Фольксваген
                 </h1>
-                <h2>Запчасти в наличии
-                </h2>
                 <p><strong>Сервис Фольксваген —
                     </strong>ремонт, обслуживание, тюнинг.</p>
+                <ul class="header__utp_list">
+                    <li>Профильный сервис</li>
+                    <li>Заезд в день обращения</li>
+                    <li>Запчасти в наличии</li>
+                </ul>
                 <div class="banner_main_text_btn" onclick="PopUpShow();">записаться</div>
             </div>
-            <div class="banner_main_img"><img src="./img/Volkswagen-Passat-1.png" alt=""></div>
+            <div class="banner_left_img"><img src="./img/main-banner-left-detail.png" alt=""></div>
+            <div class="banner_main_img"><img src="./img/car-main-banner.png" alt=""></div>
             <div class="advantages_block">
                 <ul class="advantages_block_list">
                     <li><span class="garanty-icon"></span>

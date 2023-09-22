@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    const btnOpenMobMenu = document.querySelector('.btn-mobile-menu');
+    /*const btnOpenMobMenu = document.querySelector('.btn-mobile-menu');
     console.log(btnOpenMobMenu, 'btnOpenMobMenu');
     const burgerMenu = document.querySelector(".offcanvas-start");
-    console.log(burgerMenu, "burgerMenu");
+    console.log(burgerMenu, "burgerMenu");*/
    
-    const btnCloseMobMenu = document.querySelector(".btn-close"); console.log(btnCloseMobMenu, "btnCloseMobMenu");
+    /*const btnCloseMobMenu = document.querySelector(".btn-close"); console.log(btnCloseMobMenu, "btnCloseMobMenu");
     btnOpenMobMenu.addEventListener("click", function(e) {
         e.stopPropagation();
       burgerMenu.classList.add("show");
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btnCloseMobMenu.addEventListener("click", function(e) {
         e.stopPropagation();
        burgerMenu.classList.remove("show");
-     });
+     });*/
 
 
     /* Portfolio slick slider */
