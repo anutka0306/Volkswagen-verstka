@@ -30,6 +30,35 @@
                 </p><a href="#">Читать подробнее</a>
             </li>
         </ul>
+        <ul class="additional_services_mobile">
+            <li>
+                <div class="additional_services_img">
+                    <img src="./img/Car-Tire-Transparent-Image.svg" alt="Шиномонтаж колес">
+                </div>
+                <p>Шиномонтаж колес</p><a href="#">Читать подробнее</a>
+            </li>
+            <li>
+                <div class="additional_services_img">
+                    <img src="./img/sklad-shin.svg" alt="Хранение шин/дисков">
+                </div>
+                <p>Хранение шин/дисков</p><a href="#">Читать подробнее</a>
+            <li>
+                <div class="additional_services_img">
+                    <img src="./img/shod-razval.png" alt="Развал-схождение 3D
+">
+                </div>
+                <p>Развал-схождение 3D
+                </p><a href="#">Читать подробнее</a>
+            </li>
+            <li>
+                <div class="additional_services_img">
+                    <img src="./img/moika.svg" alt="Мойка химчистка
+">
+                </div>
+                <p>Мойка химчистка
+                </p><a href="#">Читать подробнее</a>
+            </li>
+        </ul>
         <div class="social_block">
             <span class="vk-icon"></span>
             <div class="social_block_text">

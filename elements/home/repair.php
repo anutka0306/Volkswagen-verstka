@@ -35,4 +35,23 @@
             </p>
         </li>
     </ul>
+
+    <ul class="repair_list_mobile">
+        <li>
+            <img src="./img/avtomoika.png" alt="avtomoika">
+            <h4>Автомойка</h4>
+            </p>
+        </li>
+        <li>
+            <img src="./img/16postov.png" alt="16postov">
+            <h4>16 постов обслуживания
+            </h4>
+        </li>
+        <li>
+            <img src="./img/priemka.png" alt="priemka">
+            <h4>Удобная приемка
+
+            </h4>
+        </li>
+    </ul>
 </section>

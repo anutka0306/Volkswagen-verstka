@@ -73,4 +73,82 @@
             </p>
         </li>
     </ul>
+
+    <!-- Services list mobile -->
+    <div class="services_list_mobile">
+        <ul class="services_list_ul">
+            <li>
+                <p>Диагностика</p>
+            </li>
+            <li>
+                <p>Замена<br>масла</p>
+            </li>
+            <li>
+                <p>Ремонт<br>двигателя</p>
+            </li>
+            <li>
+                <p>Ремонт<br>коробки АКПП</p>
+            </li>
+            <li>
+                <p>Замена<br>колодок
+                </p>
+            </li>
+            <li>
+                <p>Замена<br>свечей
+                </p>
+            </li>
+        </ul>
+        <ul class="services_list_ul">
+            <li>
+                <p>Замена<br>фильров
+                </p>
+            </li>
+            <li>
+                <p>Замена ГРМ
+                </p>
+            </li>
+            <li>
+                <p>Тех<br>обслуживание</p>
+            </li>
+            <li>
+                <p>Заправка<br>кондея
+                </p>
+            </li>
+            <li>
+                <p>Шиномонтаж<br>колес
+                </p>
+            </li>
+            <li>
+                <p>Развал-схождение
+                </p>
+            </li>
+        </ul>
+        <ul class="services_list_ul">
+            <li>
+                <p>Ремонт<br>подвески
+
+                </p>
+            </li>
+            <li>
+                <p>Покраска
+                </p>
+            </li>
+            <li>
+                <p>Кузовной<br>ремонт
+                </p>
+            </li>
+            <li>
+                <p>Сел<br>аккумулятор
+                </p>
+            </li>
+            <li>
+                <p>Замена<br>ГТЦ
+                </p>
+            </li>
+            <li>
+                <p>Электрика
+                </p>
+            </li>
+        </ul>
+    </div>
 </section>

@@ -31,6 +31,42 @@ document.addEventListener('DOMContentLoaded', function () {
         ]
     });
 
+    /* Repare list mobile slider */
+    if ($(window).width() <= 768) {
+        $('.repair_list_mobile').slick({
+            slidesToScroll: 1,
+            slideToShow: 1,
+            adaptiveHeight: true,
+            dots: true,
+            arrows: false,
+            autoplay: true,
+        });
+    }
+
+    /* Services list mobile slider */
+    if ($(window).width() <= 768) {
+        $('.services_list_mobile').slick({
+            slidesToScroll: 1,
+            slideToShow: 1,
+            adaptiveHeight: true,
+            dots: true,
+            arrows: false,
+            autoplay: false,
+        });
+    }
+
+    /* Services list mobile slider */
+    if ($(window).width() <= 768) {
+        $('.additional_services_mobile').slick({
+            slidesToScroll: 1,
+            slideToShow: 1,
+            adaptiveHeight: true,
+            dots: true,
+            arrows: false,
+            autoplay: true,
+        });
+    }
+
     /* Modals */
 
     //Скрыть PopUp при загрузке страницы

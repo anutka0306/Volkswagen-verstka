@@ -1,7 +1,7 @@
 <header class="header_main container-fluid">
     <nav class="navbar navbar-dark bg-transparent fixed-top">
         <div class="container-fluid">
-            <div class="col-xl-6 col-8 d-md-flex justify-content-xl-start justify-content-start align-items-center">
+            <div class="col-xl-6 col-6 d-md-flex justify-content-xl-start justify-content-start align-items-center">
                 <a href="/"><span class="header_logo"></span></a>
                 <a href="/" class="text-decoration-none"><p class="mb-0 ms-3"><span class="fw-normal">Ремонт и обслуживание <br>автомобилей </span>Volkswagen</p></a>
                 <div class="header_main_certificates d-xl-flex d-none align-items-center">
@@ -15,6 +15,12 @@
                 <div class="header_main__work-time">
                     <p class="mb-0">Режим работы</p>
                     <p class="mb-0">Ежедневно 09:00 - 21:00</p>
+                </div>
+            </div>
+            <div class="col-2 d-md-none d-flex justify-content-end align-items-center">
+                <div class="nav__contacts trubka">
+                    <a href="tel:+78129159153"><span>
+                    <i class="fas fa-phone" aria-hidden="true" style="font-size:40px"></i></span></a>
                 </div>
             </div>
             <button class="navbar-toggler" id="header__navbar_toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
