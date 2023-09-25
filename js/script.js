@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     /* Repare list mobile slider */
-    if ($(window).width() <= 768) {
+    if ($(window).width() < 768) {
         $('.repair_list_mobile').slick({
             slidesToScroll: 1,
             slideToShow: 1,
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     /* Services list mobile slider */
-    if ($(window).width() <= 768) {
+    if ($(window).width() < 768) {
         $('.services_list_mobile').slick({
             slidesToScroll: 1,
             slideToShow: 1,
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     /* Additional services list mobile slider */
-    if ($(window).width() <= 768) {
+    if ($(window).width() < 768) {
         $('.additional_services_mobile').slick({
             slidesToScroll: 1,
             slideToShow: 1,
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     /* Why list mobile slider */
-    if ($(window).width() <= 768) {
+    if ($(window).width() < 768) {
         $('.why_right_list_mobile').slick({
             slidesToScroll: 1,
             slideToShow: 1,
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     /* Blog */
-    if ($(window).width() <= 768) {
+    if ($(window).width() < 768) {
         $('.blog_list').slick({
             slidesToScroll: 1,
             slideToShow: 1,
