@@ -108,5 +108,42 @@
                 </div>
             </li>
         </ul>
+        <!-- Why right list mobile -->
+        <ul class="why_right_list_mobile">
+            <li>
+                <img src="./img/Volkswagen_Jetta.png" class="me-5" alt="volkswagen_jetta">
+                <div class="why_right_item_text">
+                    <h3>Специализируемся на Фольксваген!
+                    </h3>
+                    <p>Мы собрали команду профессионалов Volkswagen. Каждый сотрудник имеет огромный опыт
+                        Фольксваген.
+                    </p>
+                </div>
+            </li>
+            <li><img src="./img/masters.png" class="me-5" alt="masters">
+                <div class="why_right_item_text">
+                    <h3>Опытные мастера Фольксваген!
+                    </h3>
+                    <p>В отличии от мультибрендов наши сотрудники узкоспециализированы на Фольксваген.
+                    </p>
+                </div>
+            </li>
+            <li><img src="./img/in_zone.png" class="me-5" alt="in_zone">
+                <div class="why_right_item_text">
+                    <h3>Доступ в ремзону
+                    </h3>
+                    <p>Мы приглашаем владельцев в ремзону для согласования объема работ.
+                    </p>
+                </div>
+            </li>
+            <li><img src="./img/spare_parts.png" class="me-5" alt="spare_parts">
+                <div class="why_right_item_text">
+                    <h3>Запчасти в наличии
+                    </h3>
+                    <p>Развитый отдел запчастей позволяет обеспечить деталями автомобили в работе.
+                    </p>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>

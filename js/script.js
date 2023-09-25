@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    /* Services list mobile slider */
+    /* Additional services list mobile slider */
     if ($(window).width() <= 768) {
         $('.additional_services_mobile').slick({
             slidesToScroll: 1,
@@ -66,6 +66,40 @@ document.addEventListener('DOMContentLoaded', function () {
             autoplay: true,
         });
     }
+
+    /* Why list mobile slider */
+    if ($(window).width() <= 768) {
+        $('.why_right_list_mobile').slick({
+            slidesToScroll: 1,
+            slideToShow: 1,
+            adaptiveHeight: true,
+            dots: true,
+            arrows: false,
+            autoplay: true,
+        });
+    }
+
+    /* Blog */
+    if ($(window).width() <= 768) {
+        $('.blog_list').slick({
+            slidesToScroll: 1,
+            slideToShow: 1,
+            adaptiveHeight: true,
+            dots: true,
+            arrows: false,
+            autoplay: true,
+        });
+    }
+
+    /* Certificates */
+    $('.certificates_list').slick({
+        slidesToScroll: 1,
+        slideToShow: 1,
+        adaptiveHeight: true,
+        dots: true,
+        arrows: false,
+        autoplay: true,
+    });
 
     /* Modals */
 

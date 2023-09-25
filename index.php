@@ -77,6 +77,9 @@
         <!-- Blog -->
         <?php include 'elements/home/blog.php';?>
 
+        <!-- Certificates -->
+        <?php include 'elements/home/certificates.php'; ?>
+
         <!-- Consult Form-->
         <?php /*include 'elements/consult-form.php'; */?>
 

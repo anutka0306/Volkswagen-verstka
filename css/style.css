@@ -1045,7 +1045,7 @@ button {
 
 }
 
-.blog_list li {
+.blog_list > li {
   width: 100%;
   min-height: 350px;
   display: flex;
@@ -1413,6 +1413,10 @@ button {
   /* 22.8px */
 }
 
+.why_right_list_mobile {
+  display: none;
+}
+
 .why_right_list {
   display: flex;
   align-items: flex-start;
@@ -1728,6 +1732,9 @@ button {
   text-decoration: none;
   color: #444444;
 }
+.certificates {
+  display: none;
+}
 @media (max-width: 1822px) {
   .select_auto_list li img {
     width: 230px;
@@ -2014,15 +2021,17 @@ width: 80%;
   .banner_main {
     height: 100%;
   }
-  .blog_list li {
+
+  .blog_list li.slick-slide {
     width: 100%;
-    height: 448px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: #8E7C71;
+  }
+  .blog_list li.slick-slide {
+    display: block;
+    padding-bottom: 42px;
   }
 
-  .blog_list li img {
+  .blog_list li.slick-slide img {
     width: 100%;
     height: 100%;
   }
@@ -2171,7 +2180,41 @@ width: 80%;
   .banner_left_img img {
     max-width: 35px;
   }
-  .why_right_list li {
+  .why_right_list {
+    display: none;
+  }
+  .why_right_list_mobile {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  .why_right_list_mobile li.slick-slide {
+    background: #8E7C71;
+  }
+  .why_right_list_mobile li.slick-slide img {
+    margin: 0 auto;
+  }
+  .why_right_list_mobile li.slick-slide .why_right_item_text h3,
+  .why_right_list_mobile li.slick-slide .why_right_item_text p
+  {
+    color: #FFFFFF;
+  }
+  .why_right_list_mobile li.slick-slide .why_right_item_text h3 {
+    font-size: 26px;
+  }
+  .why_right_list_mobile li.slick-slide .why_right_item_text p {
+    font-size: 22px;
+  }
+  ul.slick-dots {
+    padding-left: 0;
+  }
+  ul.slick-dots li {
+    justify-content: center !important;
+    align-items: center !important;
+    width: auto !important;
+    padding: inherit!important;
+  }
+  .why_right_list_mobile li {
     flex-direction: column;
     width: 100%;
     padding: 20px;
@@ -2278,6 +2321,28 @@ width: 80%;
   }
   .additional_services_mobile li.slick-slide a {
     display: block;
+  }
+  .certificates {
+    display: block;
+    margin-bottom: 42px;
+  }
+  .certificates h2 {
+    color: #444;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 137.9%;
+    margin-bottom: 46px;
+  }
+  .certificates_list {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .certificates_list img {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
