@@ -1767,6 +1767,15 @@ button {
     font-size: 12px;
   }
 }
+@media (min-width: 767px) and (max-width: 1280px) {
+  .blog_list {
+    flex-wrap: wrap;
+  }
+  .blog_list > li {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
 
 @media (max-width: 1200px) {
   .additional_services {
@@ -2343,6 +2352,7 @@ width: 80%;
   }
   .certificates_list img {
     max-width: 100%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 600px) {
